@@ -1,9 +1,13 @@
+
+    
 body {
     background: linear-gradient(120deg,rgb(14, 129, 68),grey);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    max-width: 1900px;
+    max-height: 1900px;
    
 }
 
