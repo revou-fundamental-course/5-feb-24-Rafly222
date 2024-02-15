@@ -7,11 +7,6 @@ body {
    
 }
 
-img {
-    margin-left: 1310px;
-    width: 120px;
-    height: 100px;
-}
 
 button:hover{
     color:aqua;
@@ -117,10 +112,10 @@ label[for="output-kalkulasi"] {
 }
 
 .sesi-cara {
-    position: absolute;
-    right: 60px;
-    top: 210px;
-    background: linear-gradient(rgb(228, 226, 226),white);
+   position: absolute;
+   top: 200px;
+   left:930px;
+
 
 }
 
@@ -174,3 +169,11 @@ textarea{
    font-size: 20px;
     
 }
+
+img {
+    height: 100px ;
+    width: 120px;
+    position: absolute;
+    left: 1350px;
+}
+
