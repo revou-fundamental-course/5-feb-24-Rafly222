@@ -1,0 +1,176 @@
+body {
+    background: linear-gradient(120deg,rgb(14, 129, 68),grey);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+
+img {
+    margin-left: 1310px;
+    width: 120px;
+    height: 100px;
+}
+
+button:hover{
+    color:aqua;
+}
+
+header button {
+    display: block;
+    margin-left: 1110px;
+    position: absolute;
+    top: 60px;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    font-size: 150%;
+    border-radius: 16px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+
+
+h1 {
+    text-align: justify;
+    position: absolute;
+    top: 20px;
+    color: white;
+    left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+}
+
+p {
+    text-align: justify;
+    position: absolute;
+    top: 80px;
+    color: white;
+    font-size: 100%;
+    left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p[id="petunjuk-rumus"]{
+    position: absolute;
+    left: 1000px;
+    top: 90px;
+    font-size: 100%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p[id="instruksi"]{
+    font-size: 90%;
+    margin-top: 50px;
+    left: 22px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sesi-input {
+    text-align: center;
+    position: absolute;
+    top: 260px;
+    margin: 16px;
+    width:  473px;
+    background: linear-gradient(rgb(228, 226, 226),white);
+   
+}
+
+label[for="input-celcius"]{
+    color:black;
+    
+}
+
+label[for="output-fahrenheit"]{
+    color: black;
+  
+}
+
+.sesi-output {
+    text-align: center;
+    position: absolute;
+    top: 460px;
+    width: 473px;
+    left: 25px;
+    background: linear-gradient(rgb(228, 226, 226),white);
+}
+ 
+
+main p {
+    position: absolute;
+    top: 180px;
+    left: 32px;
+}
+
+
+label[for="output-kalkulasi"] {
+    position: absolute;
+    top: -20px;
+    right: -2px;
+    color: black;
+    background: linear-gradient(rgb(228, 226, 226),white);
+    width: 489px;
+    text-align: center;
+}
+
+.sesi-cara {
+    position: absolute;
+    right: 60px;
+    top: 210px;
+    background: linear-gradient(rgb(228, 226, 226),white);
+
+}
+
+.mybutton {
+    padding: 5px;
+    margin: 3px;
+    position: absolute;
+    top: 400px;
+    left: 25px;
+    height: 30px;
+    text-align: center;
+
+}
+
+button[type="button1"] {
+    position: absolute;
+    background-color: black;
+    color: white ;
+    border-radius: 16px;
+    padding: 8px 8px;
+    cursor: pointer;
+    left: 120px;
+    width: 100px;
+}
+
+button[type="button2"] {
+    position: absolute;
+    background-color: black;
+    color: white ;
+    border-radius: 16px;
+    padding: 8px 8%;
+    cursor: pointer;
+    left: 240px;
+    width: 100px;
+}
+
+
+button:hover[type="button1"] {
+    color: aqua;
+}
+
+button:hover[type="button2"] {
+    color: aqua;
+}
+
+button:hover[type="button3"] {
+    color: aqua;
+}
+
+textarea{
+   font-size: 20px;
+    
+}

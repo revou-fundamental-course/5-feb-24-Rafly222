@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konverter Suhu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <header>  
+        <img src="assets/logo1.png" alt="ini logo">
+        <button onclick="caraKalkulasi()" >Formula</button>
+        <br>
+        <h1>WELCOME TO APLIKASI KONVERSI SUHU</h1>
+        <p id="petunjuk-rumus"> Clik button above to see the equation !</p> 
+        
+        <p>Sebuah aplikasi kalkulator online yang digunakan untuk mengubah suhu 
+        <br>dari satu skala pengukuran suhu ke skala lainnya.</p>
+    </header>
+    <main>
+        <p id="instruksi">Masukkan suhu derajat Celcius (&deg;C) ke kotak di bawah, lalu klik <br>
+           tombol konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).
+        <p>
+
+        <div class="sesi-input">
+            <label for="input-celcius">Celcius (&deg;C)</label>   
+            <textarea rows="4" cols="40" type="number" ></textarea>
+        </div>
+        <div class="sesi-output">
+            <label for="output-fahrenheit">Fahrenheit (&deg;F)</label>   
+            <textarea rows="4" cols="40" type="number" min="0" ></textarea>
+        </div>
+        <div class="mybutton">
+            <button onclick="konversiCelcius()" type="button1" >Konversi</button>
+            <button onclick="reset()" type="button2" >Reset</button>
+        </div>
+        <div class="sesi-cara">
+            <label for="output-kalkulasi">Cara Kalkulasi</label>
+            <textarea rows="8" cols="41" > The equation will be display here. ..</textarea>   
+        </div>      
+    </main>
+    <footer>
+    </footer>
+</body>   
+</html>
