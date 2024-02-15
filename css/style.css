@@ -6,8 +6,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    max-width: 100000000000px; /*agar responsif dan fleksibel di berbagai perangkat seperti hp dsb.*/
-    max-height: 10000000000px;
+    max-width: 10000px;
+    max-height: 10000px;
    
 }
 
